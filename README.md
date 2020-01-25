@@ -1,8 +1,11 @@
 # Element22
 Database Conversion for CAT data.
 
+Each folder contains:
+A jupyer notebook that descripes the working
+An output csv file
+Working python code (.py file)
 
-1. The Parser V4 contains the Jupyter notebook explaining the the project.
-2. databse.json is the database of CAT events we are working on.
-3. The Python file provides the final code for the parser, that can be applied deirectly to a 'database.json' file.
-4. output.csv Produces the required CAT csv file. 
+
+1. CAT Parser folder contains the project for creating a parser to converti the .json to a csv. 
+2. MariaDB folder contains the Data Definition mappings from .json to MariaDB compatibles. 
