@@ -1,0 +1,14 @@
+JSON Datatype,datatype,precision,scale,max length,MariaDB Map
+NUMBER,Price,10,8,,"DECIMAL(10[,8])"
+NUMBER,Date,8,0,,INT(8)
+"[{'JSONDataType': 'NUMBER', 'precision': 20, 'scale': 0}, {'JSONDataType': 'STRING', 'maxLength': 25}]",Timestamp,,,,"[INT(20)] , [VARCHAR(25)]"
+NUMBER,Real Quantity,12,6,,"DECIMAL(12,[6])"
+NUMBER,Whole Quantity,12,0,,INT(12)
+STRING,Symbol,,,22,VARCHAR(22)
+STRING,Message Type,,,5,VARCHAR(5)
+STRING,CAT Reporter IMID,,,7,VARCHAR(7)
+STRING,Industry Member ID,,,16,VARCHAR(16)
+STRING,Exchange ID,,,7,VARCHAR(7)
+NUMBER,Integer,19,0,,INT(19)
+NUMBER,Unsigned,20,0,,INT(20)
+BOOLEAN,Boolean,,,,BOOLEAN 
