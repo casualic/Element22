@@ -2,7 +2,7 @@
 Database Conversion for CAT data.
 
 Each folder contains:
-A jupyer notebook that descripes the working
+A jupyter notebook that describes the working (*shorthand writing descriptions)
 An output csv file
 Working python code (.py file)
 
