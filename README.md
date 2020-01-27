@@ -1,6 +1,4 @@
-# Element22
-
-#Project Descritpion
+# Project Descritpion
 
 Consolidated Audit Trail (CAT) is a regulatory reporting requirement enforced by FINRA, that obligates Broker-dealers to submit detailed information about securities trades. Required information includes details from order initiation to placement if form of "events".
 In order to comply with the requirement Broker Dealers (aka industry members) are creating internal reporting platforms.
@@ -12,11 +10,10 @@ Data requirements for CAT reports is described in FINRA CAT Industry Member spec
 Given JSON specification of CAT Industry member schema (IM-Schema-v2.2.json) we complete the following tasks:
 
 1. Use python to extract data definitions for each CAT event and save it to a spreadsheet.
-Format of the spreadsheet shall be as follows:
 
-2. Review data type definitions and propose compatible MariaDB data types in a spreadsheet formatted as follows:
+2. Review data type definitions and propose compatible MariaDB data types in a spreadsheet.
 
-3. Propose a relational data model to accommodate CAT event data requirements (just entities and Primary/Foreign Keys)
+3. Proposed a relational data model to accommodate CAT event data requirements (just entities and Primary/Foreign Keys)
 Submitted high-level text description of entities and relationships between them.
 
 More information about CAT can be found here:
