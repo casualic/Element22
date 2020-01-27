@@ -6,9 +6,13 @@ PK : Primary Key
 
 FK : Foreign Key
 
-FK1 Maps Choices, matched by name. This connection will excist if dataType is 'choice'.
+
+FK1 Maps Choices, matched by name. This connection will excist if dataType is 'choice',
+
 FK2 Maps name to NameValue Pair in NameValuePairDefinitions, 
-FK3 Maps dataType to dataType (from NameValuePairs and CATs to DataTypes tables)
+
+FK3 Maps dataType to dataType (from NameValuePairs and CATs to DataTypes tables),
+
 Array Elements is mapped by Primary Key.
 
 
